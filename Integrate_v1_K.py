@@ -193,7 +193,7 @@ def main():
             break
 
         # cv2.imshow("Image", frame)
-            image = frame.copy()
+        image = frame.copy()
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         image = cv2.GaussianBlur(image, (9, 9), 2)
         circles = cv2.HoughCircles(image,cv2.HOUGH_GRADIENT,dp=1.2,minDist=50,param1=100,param2=20,minRadius=5,maxRadius=60)
