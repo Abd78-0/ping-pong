@@ -1,3 +1,5 @@
+#The purpose of this is to troubleshoot servo motor and figure out the error
+
 from dynamixel_sdk import *  # Uses Dynamixel SDK
 
 # === CONFIG ===
